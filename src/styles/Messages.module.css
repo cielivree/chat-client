@@ -1,0 +1,58 @@
+.messages {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  flex-grow: 1;
+  width: 100%;
+  color: rgb(35, 35, 35);
+  font-size: 18px;
+  background: white;
+  padding: 32px;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: rgb(100, 93, 93) white;
+}
+
+.message {
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  width: 100%;
+}
+
+.text {
+  padding: 10px;
+  border-radius: 12px;
+  font-size: 15px;
+  color: white;
+}
+
+.user {
+  font-size: 14px;
+  color: rgb(30, 30, 30);
+}
+
+.user {
+  align-items: flex-start;
+}
+
+.user .text {
+  background: #6a6262;
+}
+
+.user .user {
+  padding-left: 10px;
+}
+
+.me {
+  align-items: flex-end;
+}
+
+.me .text {
+  background: #0d49d7;
+}
+
+.me .user {
+  padding-right: 10px;
+}
